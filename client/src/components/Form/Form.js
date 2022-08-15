@@ -1,3 +1,4 @@
+import React from 'react';
 import { Button, Typography, Paper } from '@material-ui/core';
 
 import { useDispatch } from 'react-redux';
