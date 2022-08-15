@@ -1,4 +1,4 @@
-const defaultPoem = new Object({
+const defaultPoem = {
     title: String,
     author: Object({
         first: String,
@@ -6,7 +6,7 @@ const defaultPoem = new Object({
     }),
     lines: [String],
     stanzas: [[String]],
-});
+};
 
 defaultPoem.title = '';
 defaultPoem.author.first = '';
